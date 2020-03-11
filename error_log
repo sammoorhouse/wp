@@ -1,0 +1,170 @@
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_members' doesn't exist for query SELECT ID FROM wpj8_users WHERE ID NOT IN (SELECT user_id FROM wpj8_mepr_members) LIMIT 100 made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprMembersCtrl->updater, MeprUser::update_all_member_data
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query 
+      SELECT tr.id,
+             IF( tr.subscription_id = 0, 'none',
+                 ( SELECT sub.status
+                     FROM wpj8_mepr_subscriptions AS sub
+                    WHERE sub.id = tr.subscription_id
+                    LIMIT 1
+                 )
+             ) AS sub_status
+        FROM wpj8_mepr_transactions AS tr
+       WHERE tr.expires_at <> '0000-00-00 00:00:00'
+         AND tr.status IN ( 'confirmed', 'complete' )
+         AND DATE_ADD( tr.expires_at, INTERVAL 12 HOUR ) <= '2017-12-02 17:21:23'
+         AND DATE_ADD( DATE_ADD( tr.expires_at, INTERVAL 12 HOUR ), INTERVAL 2 DAY ) >= '2017-12-02 17:21:23'
+         AND ( SELECT ev.id
+                 FROM wpj8_mepr_events AS ev
+                WHERE ev.evt_id=tr.id
+                  AND ev.evt_id_type='transactions'
+                  AND (ev.event='expired' OR ev.event='transaction-expired')
+                LIMIT 1 ) IS NULL
+         AND tr.user_id > 0
+       ORDER BY tr.expires_at
+       made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprTransactionsCtrl->send_expired_txn_events, MeprTransaction::get_expired_txns
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query 
+        SELECT SUM(IF(txn_type='payment' AND status='pending',1,0)) AS pending,
+               SUM(IF(txn_type='payment' AND status='failed',1,0)) AS failed,
+               SUM(IF(txn_type='payment' AND status='complete',1,0)) AS complete,
+               SUM(IF(txn_type='payment' AND status='refunded',1,0)) AS refunded,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='pending',total,0)),2) AS pending_average_total,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='failed',total,0)),2) AS failed_average_total,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='complete',total,0)),2) AS complete_average_total,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='refunded',total,0)),2) AS refunded_average_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='pending',total,0)),2) AS pending_sum_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='failed',total,0)),2) AS failed_sum_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='complete',total,0)),2) AS complete_sum_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='refunded',total,0)),2) AS refunded_sum_total
+          FROM wpj8_mepr_transactions
+       made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::transaction_stats
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_subscriptions' doesn't exist for query 
+        SELECT SUM(IF(status='pending',1,0)) AS pending,
+               SUM(IF(status='active',1,0)) AS enabled,
+               SUM(IF(status='suspended',1,0)) AS suspended,
+               SUM(IF(status='cancelled',1,0)) AS cancelled,
+               TRUNCATE(AVG(IF(status='pending',total,0)),2) AS pending_average_total,
+               TRUNCATE(AVG(IF(status='active',total,0)),2) AS enabled_average_total,
+               TRUNCATE(AVG(IF(status='suspended',total,0)),2) AS suspended_average_total,
+               TRUNCATE(AVG(IF(status='cancelled',total,0)),2) AS cancelled_average_total,
+               TRUNCATE(SUM(IF(status='pending',total,0)),2) AS pending_sum_total,
+               TRUNCATE(SUM(IF(status='active',total,0)),2) AS enabled_sum_total,
+               TRUNCATE(SUM(IF(status='suspended',total,0)),2) AS suspended_sum_total,
+               TRUNCATE(SUM(IF(status='cancelled',total,0)),2) AS cancelled_sum_total
+          FROM wpj8_mepr_subscriptions
+       made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::subscription_stats
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query 
+        SELECT SUM(IF(txn_type='payment' AND status='pending',1,0)) AS pending,
+               SUM(IF(txn_type='payment' AND status='failed',1,0)) AS failed,
+               SUM(IF(txn_type='payment' AND status='complete',1,0)) AS complete,
+               SUM(IF(txn_type='payment' AND status='refunded',1,0)) AS refunded,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='pending',total,0)),2) AS pending_average_total,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='failed',total,0)),2) AS failed_average_total,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='complete',total,0)),2) AS complete_average_total,
+               TRUNCATE(AVG(IF(txn_type='payment' AND status='refunded',total,0)),2) AS refunded_average_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='pending',total,0)),2) AS pending_sum_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='failed',total,0)),2) AS failed_sum_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='complete',total,0)),2) AS complete_sum_total,
+               TRUNCATE(SUM(IF(txn_type='payment' AND status='refunded',total,0)),2) AS refunded_sum_total
+          FROM wpj8_mepr_transactions
+      WHERE created_at >= '2017-11-25 17:21:23' made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::transaction_stats
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_subscriptions' doesn't exist for query 
+        SELECT SUM(IF(status='pending',1,0)) AS pending,
+               SUM(IF(status='active',1,0)) AS enabled,
+               SUM(IF(status='suspended',1,0)) AS suspended,
+               SUM(IF(status='cancelled',1,0)) AS cancelled,
+               TRUNCATE(AVG(IF(status='pending',total,0)),2) AS pending_average_total,
+               TRUNCATE(AVG(IF(status='active',total,0)),2) AS enabled_average_total,
+               TRUNCATE(AVG(IF(status='suspended',total,0)),2) AS suspended_average_total,
+               TRUNCATE(AVG(IF(status='cancelled',total,0)),2) AS cancelled_average_total,
+               TRUNCATE(SUM(IF(status='pending',total,0)),2) AS pending_sum_total,
+               TRUNCATE(SUM(IF(status='active',total,0)),2) AS enabled_sum_total,
+               TRUNCATE(SUM(IF(status='suspended',total,0)),2) AS suspended_sum_total,
+               TRUNCATE(SUM(IF(status='cancelled',total,0)),2) AS cancelled_sum_total
+          FROM wpj8_mepr_subscriptions
+      WHERE created_at >= '2017-11-25 17:21:23' made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::subscription_stats
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query SELECT COUNT(u.ID)
+                FROM wpj8_users AS u
+               WHERE 0 <
+                     (SELECT COUNT(tr.user_id)
+                        FROM wpj8_mepr_transactions AS tr
+                       WHERE tr.user_id=u.ID
+                     ) made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::get_total_members_count
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query 
+      SELECT COUNT(DISTINCT u.ID)
+        FROM wpj8_mepr_transactions AS tr
+       INNER JOIN wpj8_users AS u
+          ON u.ID=tr.user_id
+       WHERE (tr.expires_at >= '2017-12-02 17:21:23' OR tr.expires_at IS NULL OR tr.expires_at = '0000-00-00 00:00:00')
+         AND tr.status IN ('complete', 'confirmed')
+     made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::get_active_members_count
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query 
+      SELECT COUNT(u.ID)
+        FROM wpj8_users AS u
+        WHERE u.ID NOT IN
+          (SELECT tr.user_id
+            FROM wpj8_mepr_transactions AS tr
+            WHERE (tr.expires_at >= '2017-12-02 17:21:23' OR tr.expires_at IS NULL OR tr.expires_at = '0000-00-00 00:00:00')
+              AND tr.status IN ('complete', 'confirmed')
+          )
+          AND 0 <
+            (SELECT COUNT(tr2.user_id)
+              FROM wpj8_mepr_transactions AS tr2
+              WHERE tr2.user_id=u.ID
+            )
+     made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::get_inactive_members_count
+[02-Dec-2017 17:21:23 UTC] WordPress database error Table 'liljades_wp493.wpj8_mepr_transactions' doesn't exist for query 
+      SELECT COUNT(*) AS famc
+        FROM ( SELECT t.user_id AS user_id,
+                      (SUM(t.amount)+SUM(t.tax_amount)) AS lv
+                 FROM wpj8_mepr_transactions AS t
+                WHERE t.status IN ('complete','confirmed')
+                  AND ( t.expires_at = '0000-00-00 00:00:00' OR t.expires_at >= '2017-12-02 17:21:23' )
+                GROUP BY t.user_id ) as lvsums
+       WHERE lvsums.lv <= 0
+     made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, MeprUsageCtrl->snapshot, MeprUsage->snapshot, MeprReports::get_free_active_members_count, MeprReports::get_free_or_paid_active_members_count
+[06-Jan-2018 03:36:36 UTC] PHP Warning:  mysqli_query(): (HY000/23): Out of resources when opening file '/tmp/#sql_36b6_0.MAI' (Errcode: 24 &quot;Too many open files&quot;) in /home/liljades/public_html/studyabroadu.com/wp-includes/wp-db.php on line 1931
+[06-Jan-2018 03:36:36 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAI' (Errcode: 24 "Too many open files") for query SELECT  t.*, tt.*, tr.object_id FROM wpj8_terms AS t  INNER JOIN wpj8_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wpj8_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format') AND tr.object_id IN (1) ORDER BY t.name ASC  made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, _prime_post_caches, update_post_caches, update_object_term_cache, wp_get_object_terms, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by call_user_func_array, wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by wp_unschedule_event, _set_cron_array, update_option
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by call_user_func_array, wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by wp_unschedule_event, _set_cron_array, update_option
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by call_user_func_array, wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by wp_unschedule_event, _set_cron_array, update_option
+[06-Jan-2018 03:36:52 UTC] WordPress database error Out of resources when opening file '/tmp/#sql_36b6_0.MAD' (Errcode: 24 "Too many open files") for query SHOW FULL COLUMNS FROM `wpj8_options` made by delete_transient, delete_option
+[06-Feb-2018 16:37:19 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[06-Feb-2018 17:57:31 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[07-Feb-2018 07:48:08 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[07-Feb-2018 15:33:46 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[07-Feb-2018 15:55:31 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[08-Feb-2018 06:03:02 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[08-Feb-2018 14:49:20 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[08-Feb-2018 18:49:45 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[09-Feb-2018 04:34:06 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[09-Feb-2018 15:02:19 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[09-Feb-2018 17:01:54 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[10-Feb-2018 05:56:51 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[10-Feb-2018 18:35:18 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[10-Feb-2018 18:43:51 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[11-Feb-2018 05:06:58 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[11-Feb-2018 14:36:50 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[11-Feb-2018 19:42:12 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 04:06:58 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 14:40:18 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 16:31:16 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 16:37:33 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[13-Feb-2018 04:08:16 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[13-Feb-2018 14:59:39 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[13-Feb-2018 18:34:03 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[14-Feb-2018 05:30:40 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[14-Feb-2018 14:32:57 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[14-Feb-2018 16:13:33 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[15-Feb-2018 06:25:37 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[15-Feb-2018 16:57:16 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[15-Feb-2018 18:36:42 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[16-Feb-2018 05:50:30 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[16-Feb-2018 14:26:32 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[16-Feb-2018 16:51:51 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[17-Feb-2018 05:16:33 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[17-Feb-2018 14:24:03 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[17-Feb-2018 16:13:39 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[18-Feb-2018 08:05:20 UTC] PHP Fatal error:  Call to undefined function request_filesystem_credentials() in /home/liljades/public_html/studyabroadu.com/wp-admin/includes/class-wp-upgrader-skin.php on line 93

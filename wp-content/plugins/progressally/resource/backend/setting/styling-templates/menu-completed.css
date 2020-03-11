@@ -1,0 +1,13 @@
+.progressally-menu-link{position:relative;}
+.progressally-menu-item{position:relative;}
+.menu-completed-icon{
+z-index: 1 !important;
+width: 22px !important;
+height: 22px !important;
+position: absolute !important;
+left: {{menu-completed-icon-left}} !important;
+top: 50% !important;
+margin-top: -11px !important;
+background-image: url({{menu-completed-icon}}) !important;
+background-repeat: no-repeat !important;
+}

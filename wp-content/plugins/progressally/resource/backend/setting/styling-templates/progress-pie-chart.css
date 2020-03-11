@@ -1,0 +1,11 @@
+.progressally_progress_pie_chart > div > .progressally_progress_pie_overlay{
+background-color:{{progress-pie-chart-color}} !important;
+}
+.progressally_progress_pie_chart > .progressally_progress_pie_percentage{
+color:#000000 !important;
+text-align:center !important;
+background-color:#ffffff !important;
+}
+.progressally_progress_pie_chart> .progressally_progress_pie_border_overlay{
+border:1px solid {{progress-pie-chart-color}} !important;
+}

@@ -1,0 +1,54 @@
+.objective-table {
+padding:10px !important;
+border-collapse:collapse !important;
+}
+.objective-table tr {
+height: 42px !important;
+border: 1px solid {{border-color}} !important;
+}
+.objective-table td {
+vertical-align: middle !important;
+border: none !important;
+}
+.objective-number {
+width: 40px !important;
+color: white !important;
+font-weight:bold !important;
+text-align: center !important;
+background-image: url("{{objective-icon}}") !important;
+background-repeat: no-repeat !important;
+background-position: center !important;
+}
+.objective-description{
+padding-right: 40px !important;
+}
+.objective-completion {
+width:40px !important;
+}
+input.completion-checkbox {
+display:none !important;
+}
+.completion-checkbox+label {
+display:block !important;
+width:22px !important;
+height:22px !important;
+background: url("{{checkbox-unchecked}}") !important;
+background-repeat: no-repeat !important;
+cursor:pointer !important;
+}
+.completion-checkbox:checked+label {
+display:block !important;
+width:22px !important;
+height:22px !important;
+background: url("{{checkbox-checked}}") !important;
+background-repeat: no-repeat !important;
+}
+.progressally-time-target{
+  cursor:pointer !important;
+}
+.objective-description.progressally-time-target{
+padding-left: 40px !important;
+background-image: url("{{time-target-icon}}") !important;
+background-repeat: no-repeat !important;
+background-position: 0 50% !important;
+}

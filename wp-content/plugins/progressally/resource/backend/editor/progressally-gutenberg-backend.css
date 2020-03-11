@@ -1,0 +1,7 @@
+.progressally-video-container{
+	height:360px;
+}
+.progressally-video-container iframe{
+	width:100%;
+	height:100%;
+}

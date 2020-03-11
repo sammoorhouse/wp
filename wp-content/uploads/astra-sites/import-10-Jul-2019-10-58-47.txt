@@ -1,0 +1,103 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: Linux
+Software 		: Apache
+MySQL version 		: 5.6.40
+XML Reader 		: Yes
+PHP Version 		: 7.1.30
+PHP Max Input Vars 	: 3000
+PHP Max Post Size 	: 128M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 120
+Max Upload Size 	: 1 MB
+Memory Limit 		: 64M
+Timezone 		: 0
+
+-----
+
+Importing Started! - 12:07:00 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Imported Customizer Settings {"astra-settings":{"astra-addon-auto-version":"2.0.0","theme-auto-version":"2.0.1","site-sidebar-layout":"no-sidebar","site-content-layout":"boxed-container","body-font-family":"'Montserrat', sans-serif","body-font-weight":"400","headings-font-family":"'Libre Baskerville', serif","headings-font-variant":"","headings-font-weight":"400","font-size-body":{"desktop":"15","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h1":{"desktop":"55","tablet":"","mobile":"40","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h2":{"desktop":"48","tablet":"37","mobile":"25","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"text-color":"rgba(0,0,0,0.73)","theme-color":"#ffefea","button-bg-color":"#1a2041","transparent-header-color-site-title-responsive":{"desktop":"#ffab91","tablet":"","mobile":""},"transparent-menu-bg-color-responsive":{"desktop":"","tablet":"","mobile":""},"transparent-menu-color-responsive":{"desktop":"rgba(255,255,255,0.89)","tablet":"#666666","mobile":""},"transparent-menu-h-color-responsive":{"desktop":"#f38315","tablet":"#f38315","mobile":""},"header-main-rt-section":"widget","header-layouts":"header-main-layout-1","transparent-header-bg-color-responsive":{"desktop":"","tablet":"","mobile":""},"display-site-title":false,"logo-title-inline":false,"ast-header-responsive-logo-width":{"desktop":"157","tablet":"","mobile":""},"button-radius":5,"button-bg-h-color":"#2b2e3f","button-color":"#ffffff","button-h-color":"#ffffff","footer-bg-obj":{"background-color":"#000000","background-image":"","background-repeat":"no-repeat","background-position":"left top","background-size":"cover","background-attachment":"scroll"},"footer-sml-divider":0,"footer-sml-layout":"footer-sml-layout-2","footer-sml-section-2":"menu","footer-sml-section-2-credit":"Powered by [site_title]","footer-sml-section-1-credit":"Copyright \u00a9 [current_year] [site_title]","header-main-sep":1,"header-main-sep-color":"","footer-color":"#a3a3a3","different-transparent-logo":true,"transparent-header-logo":"https:\/\/websitedemos.net\/fashion-lifestyle-blog-07\/wp-content\/uploads\/sites\/421\/2019\/02\/ms2-logo-free-img.svg","blog-single-width":"custom","blog-single-max-width":1100,"blog-single-meta":["comments","category"],"link-color":"#1a2041","header-main-rt-section-button-link":"#","header-main-rt-section-button-style":"custom-button","header-main-rt-section-button-text":"Join Me Now","header-main-rt-trans-section-button-back-color":"rgba(96,96,96,0)","header-main-rt-trans-section-button-border-size":{"top":"1","right":"1","bottom":"1","left":"1"},"header-main-rt-trans-section-button-border-color":"#dbdbdb","header-main-rt-trans-section-button-padding":{"desktop":{"top":"5","right":"23","bottom":"5","left":"23"},"tablet":{"top":"","right":"","bottom":"","left":""},"mobile":{"top":"","right":"","bottom":"","left":""},"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"header-main-rt-section-button-back-color":"rgba(124,124,124,0)","header-main-rt-section-button-padding":{"desktop":{"top":"5","right":"23","bottom":"5","left":"23"},"tablet":{"top":"","right":"","bottom":"","left":""},"mobile":{"top":"","right":"","bottom":"","left":""},"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"header-main-rt-section-button-border-size":{"top":"1","right":"1","bottom":"1","left":"1"},"header-main-rt-section-button-border-color":"#afafaf","header-main-rt-section-button-border-h-color":"#000000","header-main-rt-section-button-text-color":"#afafaf","header-main-rt-section-button-text-h-color":"#000000","header-main-rt-trans-section-button-text-h-color":"#ffffff","header-main-rt-trans-section-button-border-h-color":"#ffffff","header-main-rt-trans-section-button-text-color":"#dbdbdb","mobile-header-toggle-btn-style":"fill","hide-custom-menu-mobile":false,"button-v-padding":7,"button-h-padding":35,"header-main-rt-section-button-back-h-color":"","header-main-rt-section-button-border-radius":"","header-main-rt-trans-section-button-back-h-color":"","header-main-rt-trans-section-button-border-radius":"","site-content-width":1200,"disable-primary-nav":false,"header-button-style-link":"","header-main-rt-section-html":"<button>Contact Us<\/button>","header-main-layout-width":"content","primary-submenu-border-divider":"","primary-submenu-border":{"top":"2","right":"0","bottom":"0","left":"0"},"primary-submenu-b-color":"","primary-submenu-item-border":false,"primary-submenu-item-b-color":"","header-main-submenu-container-animation":"fade","header-main-menu-label-divider":"","mobile-header-breakpoint":"","mobile-header-toggle-target":"icon","header-main-menu-label":"","header-display-outside-menu":false,"header-main-menu-align":"inline","mobile-header-toggle-btn-style-color":"","mobile-header-toggle-btn-border-radius":"","different-retina-logo":false,"ast-header-retina-logo":"","different-mobile-logo":false,"mobile-header-logo":"","ast-site-logo-divider":"","display-site-tagline":0,"ast-site-icon-divider":"","blog-post-content":"excerpt","blog-post-structure":["image","title-meta"],"blog-meta":["comments","category","author"],"ast-styling-section-blog-width":"","blog-width":"default","blog-max-width":1200,"blog-single-post-structure":["single-image","single-title-meta"],"ast-styling-section-single-blog-layouts":"","single-page-sidebar-layout-divider":"","single-page-sidebar-layout":"default","single-post-sidebar-layout":"default","archive-post-sidebar-layout":"default","divider-section-sidebar-width":"","site-sidebar-width":30,"site-sidebar-width-description":"","site-content-layout-divider":"","single-page-content-layout":"default","single-post-content-layout":"default","archive-post-content-layout":"default","site-layout-outside-bg-obj":{"background-color":"","background-image":"","background-repeat":"repeat","background-position":"center center","background-size":"auto","background-attachment":"scroll"},"section-ast-small-footer-layout-info":"","footer-sml-section-1":"custom","section-ast-small-footer-typography":"","footer-sml-divider-color":"#7a7a7a","footer-layout-width":"content","footer-adv":"disabled","footer-adv-border-style":"","footer-adv-border-width":"","footer-adv-border-color":"#7a7a7a","link-h-color":"#3a3a3a","divider-outside-bg-color":"","footer-link-color":"","footer-link-h-color":"","divider-footer-image":"","footer-adv-wgt-title-color":"","footer-adv-text-color":"","footer-adv-link-color":"","footer-adv-link-h-color":"","footer-adv-background-divider":"","footer-adv-bg-obj":{"background-color":"","background-image":"","background-repeat":"repeat","background-position":"center center","background-size":"auto","background-attachment":"scroll"},"divider-section-archive-typo-archive-title":"","font-size-page-title":{"desktop":40,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-archive-summary-box-typo":"","font-size-archive-summary-title":{"desktop":40,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-base-typo":"","body-font-variant":"","body-text-transform":"","body-line-height":"","para-margin-bottom":"","divider-headings-typo":"","headings-text-transform":"","divider-section-h1":"","divider-section-h2":"","divider-section-h3":"","font-size-h3":{"desktop":25,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-h4":"","font-size-h4":{"desktop":20,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-h5":"","font-size-h5":{"desktop":"16","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-h6":"","font-size-h6":{"desktop":"14","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-header-typo-title":"","font-size-site-title":{"desktop":35,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-header-typo-tagline":"","font-size-site-tagline":{"desktop":15,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"divider-section-header-single-title":"","font-size-entry-title":{"desktop":30,"tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"transparent-header-color-h-site-title-responsive":{"desktop":"","tablet":"","mobile":""},"divider-transparent-menu-responsive":"","divider-transparent-sub-menu-responsive":"","transparent-submenu-bg-color-responsive":{"desktop":"","tablet":"","mobile":""},"transparent-submenu-color-responsive":{"desktop":"","tablet":"","mobile":""},"transparent-submenu-h-color-responsive":{"desktop":"","tablet":"","mobile":""},"divider-transparent-content-section":"","transparent-content-section-text-color-responsive":{"desktop":"","tablet":"","mobile":""},"transparent-content-section-link-color-responsive":{"desktop":"","tablet":"","mobile":""},"transparent-content-section-link-h-color-responsive":{"desktop":"","tablet":"","mobile":""},"transparent-header-enable":0,"transparent-header-disable-archive":1,"transparent-header-disable-index":"","transparent-header-disable-page":"","transparent-header-disable-posts":"","divider-section-transparent-display":"","transparent-header-on-devices":"both","divider-section-transparent-styling":"","different-transparent-retina-logo":false,"transparent-header-retina-logo":"","transparent-header-logo-width":{"desktop":"171","tablet":"","mobile":""},"transparent-header-main-sep":0,"transparent-header-main-sep-color":"","header-main-rt-section-search-box-type":"slide-search","above-header-section-1-search-box-type":"slide-search","above-header-section-2-search-box-type":"slide-search","below-header-section-1-search-box-type":"slide-search","below-header-section-2-search-box-type":"slide-search","_astra_pb_compatibility_completed":true},"custom-css":""}
+Importing from XML https://websitedemos.net/wp-content/uploads/astra-sites/427/wxr.xml
+Inserted - Term 51 - {"term_id":51,"name":"Before-After","slug":"before-after","term_group":0,"term_taxonomy_id":51,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw","term_order":"0"}
+Inserted - Term 52 - {"term_id":52,"name":"Fashion","slug":"fashion","term_group":0,"term_taxonomy_id":52,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw","term_order":"0"}
+Inserted - Term 53 - {"term_id":53,"name":"Grooming","slug":"grooming","term_group":0,"term_taxonomy_id":53,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw","term_order":"0"}
+Inserted - Term 54 - {"term_id":54,"name":"Trending","slug":"trending","term_group":0,"term_taxonomy_id":54,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw","term_order":"0"}
+Inserted - Post 242 - attachment - clients01-free-img
+Inserted - Post 584 - attachment - cropped-blog04.jpg
+Inserted - Post 883 - attachment - hero-01-free-img
+Inserted - Post 903 - attachment - kara-logo-free
+Inserted - Post 937 - attachment - blog01-free-img
+Inserted - Post 938 - attachment - blog01-1-free-img
+Inserted - Post 940 - attachment - blog02-1-free-img
+Inserted - Post 941 - attachment - blog01-2-free-img
+Inserted - Post 946 - attachment - blog03-free-img
+Inserted - Post 947 - attachment - blog03-1-free-img
+Inserted - Post 960 - attachment - 02
+Inserted - Post 964 - attachment - 01-free-img
+Inserted - Post 965 - attachment - 0.-free-img
+Inserted - Post 967 - attachment - model-03-free-img
+Inserted - Post 977 - attachment - blog04-free-img
+Inserted - Post 985 - attachment - logo01-free-img
+Inserted - Post 986 - attachment - logo03-free-img
+Inserted - Post 987 - attachment - logo02-free-img
+Inserted - Post 990 - attachment - logo06-free-img
+Inserted - Post 991 - attachment - logo05-free-img
+Inserted - Post 5 - custom_css - astra
+Inserted - Post 14 - nav_menu_item - 
+Inserted - Post 15 - nav_menu_item - 
+Inserted - Post 988 - custom_css - astra
+Inserted - Post 992 - attachment - logo04-free-img
+Inserted - Post 1058 - attachment - model-04-free-img
+Inserted - Post 1061 - attachment - model-05-free-img
+Inserted - Post 1070 - attachment - model-07-free-img
+Inserted - Post 1323 - attachment - contact-blogger-free-img
+Inserted - Post 1395 - attachment - quotes2-free-img
+Inserted - Post 1408 - attachment - makeup-free-img
+Inserted - Post 1425 - attachment - personal-makeup-free-img
+Inserted - Post 1431 - attachment - makeover-free-img
+Inserted - Post 1440 - attachment - shoes-free-img
+Inserted - Post 1442 - attachment - yellow-shoe
+Inserted - Post 1489 - attachment - street-fashion
+Inserted - Post 1510 - attachment - trip-mockup-free-img
+Inserted - Post 1605 - attachment - fashion-blogger-yoast-img
+Inserted - Post 1607 - attachment - kara-logo-free
+Inserted - Post 1890 - attachment - k-favicon-free-img
+Inserted - Post 9 - page - Blog
+Inserted - Post 11 - page - Contact
+Inserted - Post 12 - nav_menu_item - 
+Inserted - Post 195 - post - Road Trip Shopping
+Inserted - Post 692 - post - Selecting Shoes
+Inserted - Post 693 - post - Wardrobe Makeover
+Inserted - Post 694 - post - Quick Eye Makeup
+Inserted - Post 695 - post - Be Simply Stylish
+Inserted - Post 793 - post - Office Grooming Tips
+Inserted - Post 795 - post - Summer Dressings
+Inserted - Post 800 - post - Daily Make Tips
+Inserted - Post 855 - page - Home
+Inserted - Post 1509 - post - Street Shopping Tips
+Imported - Site Options {"woocommerce_product_attributes":[],"woocommerce_product_cat_list":[],"woocommerce_product_cat":[],"custom_logo":"https:\/\/websitedemos.net\/fashion-lifestyle-02\/wp-content\/uploads\/sites\/427\/2019\/03\/kara-logo-free.svg","nav_menu_locations":{"primary":"primary-menu","footer_menu":"primary-menu"},"show_on_front":"page","page_on_front":"Home","page_for_posts":"","_fl_builder_enabled_icons":null,"_fl_builder_enabled_modules":null,"_fl_builder_post_types":null,"_fl_builder_color_presets":null,"_fl_builder_services":null,"_fl_builder_settings":null,"_fl_builder_user_access":null,"_fl_builder_enabled_templates":null,"siteorigin_widgets_active":null,"elementor_container_width":"1200","elementor_cpt_support":null,"elementor_css_print_method":null,"elementor_default_generic_fonts":"","elementor_disable_color_schemes":null,"elementor_disable_typography_schemes":null,"elementor_editor_break_lines":null,"elementor_exclude_user_roles":null,"elementor_global_image_lightbox":null,"elementor_page_title_selector":null,"elementor_scheme_color":{"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70"},"elementor_scheme_color-picker]":{"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70","5":"#4054b2","6":"#23a455","7":"#000","8":"#fff"},"elementor_scheme_typography":{"1":{"font_family":"","font_weight":"600"},"2":{"font_family":"","font_weight":"400"},"3":{"font_family":"","font_weight":"400"},"4":{"font_family":"","font_weight":"500"}},"elementor_space_between_widgets":null,"elementor_stretched_section_container":null,"elementor_load_fa4_shim":"yes","woocommerce_shop_page_title":"","woocommerce_cart_page_title":"","woocommerce_checkout_page_title":"","woocommerce_myaccount_page_title":"","woocommerce_edit_address_page_title":"","woocommerce_view_order_page_title":"","woocommerce_change_password_page_title":"","woocommerce_logout_page_title":"","woocommerce_enable_guest_checkout":null,"woocommerce_enable_checkout_login_reminder":null,"woocommerce_enable_signup_and_login_from_checkout":null,"woocommerce_enable_myaccount_registration":null,"woocommerce_registration_generate_username":null,"wpforms_settings":{"disable-css":"2","global-assets":false,"gdpr":false},"learndash_settings_theme_ld30":null,"learndash_settings_courses_themes":null}
+Imported - Widgets {"sidebar-1":{"search-2":{"title":""},"recent-posts-2":{"title":"","number":5},"recent-comments-2":{"title":"","number":5},"archives-2":{"title":"","count":0,"dropdown":0},"categories-2":{"title":"","count":0,"hierarchical":0,"dropdown":0},"meta-2":{"title":""}},"header-widget":{"astra-widget-social-profiles-1":{"title":"","align":"inline","icon-style":"simple","color-type":"custom-color","icon-color":"#1a2041","bg-color":"","icon-hover-color":"","bg-hover-color":"","width":"17","space_btn_icon_text":"","space_btn_social_profiles":"","display-title":false,"list":[{"title":"","link":"#","link-target":"same-page","nofollow":"enable","icon":"{\"name\":\"pinterest-p\",\"path\":\"M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z\",\"viewbox\":\"0 0 384 512\"}"},{"title":"","link":"#","link-target":"same-page","nofollow":"enable","icon":"{\"name\":\"instagram\",\"path\":\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\",\"viewbox\":\"0 0 448 512\"}"},{"title":"","link":"#","link-target":"same-page","nofollow":"enable","icon":"{\"name\":\"youtube\",\"path\":\"M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z\",\"viewbox\":\"0 0 576 512\"}"}]}}}
+Complete 
+Batch Process Started!
+Astra Sites - Importing Images for Blog name '' (1)
+---- Processing Images from Widgets -----
+BATCH - SKIP Image - {from filter} - https://studyabroadu.com/wp-content/uploads/2019/05/Study-Abroad-Skills-Boost-Activity-Book-300x300.png - Filter name `astra_sites_image_importer_skip_image`.
+---- Processing WordPress Posts / Pages - for "Gutenberg" ----
+---- Processing MISC ----
+Post ID: 2819
+Post ID: 2787
+Post ID: 2789
+Post ID: 2790
+Post ID: 12
+Post ID: 14
+Post ID: 15
+Batch Process Complete!

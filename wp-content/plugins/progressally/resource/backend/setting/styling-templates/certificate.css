@@ -1,0 +1,24 @@
+.progressally-certificate-download {
+background-color:{{quiz-button-color}} !important;
+background-image:none !important;
+border: none !important;
+padding: 10px 15px !important;
+color: white !important;
+border-radius: 5px !important;
+box-shadow: 0 0 3px 3px #f1f1f1 !important;
+cursor:pointer !important;
+font-size:12px !important;
+line-height:27px !important;
+font-weight:bold !important;
+text-align: center !important;
+display:inline-block;
+-webkit-box-sizing: border-box !important;
+-moz-box-sizing: border-box !important;
+box-sizing: border-box !important;
+text-decoration:none !important;
+}
+.progressally-certificate-download:hover {
+background-color:{{quiz-button-hover}} !important;
+background-image:none !important;
+text-decoration:none !important;
+}

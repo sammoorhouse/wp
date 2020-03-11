@@ -1,0 +1,1 @@
+<option progressally-outcome-choice="{{outcome-id}}" value="{{outcome-id}}" s--select-survey-outcome-{{outcome-id}}--d>{{outcome-id}}. {{name}}</option>

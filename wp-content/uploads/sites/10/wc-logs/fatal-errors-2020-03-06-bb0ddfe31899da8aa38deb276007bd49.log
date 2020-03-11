@@ -1,0 +1,108 @@
+2020-03-06T06:44:07+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+
+2020-03-06T06:44:25+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+
+2020-03-06T06:44:32+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+
+2020-03-06T06:44:50+00:00 CRITICAL Uncaught Error: Call to undefined function is_edit_page() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1029
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/studya in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+
+2020-03-06T06:44:51+00:00 CRITICAL Uncaught Error: Call to undefined function is_edit_page() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1029
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/studya in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+
+2020-03-06T06:45:34+00:00 CRITICAL Uncaught Error: Call to undefined function is_edit_page() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1028
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/studya in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1028
+
+2020-03-06T06:45:36+00:00 CRITICAL Uncaught Error: Call to undefined function is_edit_page() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1028
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/studya in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1028
+
+2020-03-06T06:47:54+00:00 CRITICAL Uncaught Error: Call to undefined function is_edit_post() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1027
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/studya in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1027
+
+2020-03-06T06:48:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1010
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/ in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1010
+
+2020-03-06T06:48:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1010
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/ in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1010
+
+2020-03-06T06:53:15+00:00 CRITICAL syntax error, unexpected end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 438
+
+2020-03-06T12:00:33+00:00 CRITICAL Uncaught Error: Call to undefined function bp_is_user_timeline() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1032
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/main-class.php(536): require_once()
+#1 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/main-class.php(458): BuddyBoss_SAP_Plugin->do_includes(Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): BuddyBoss_SAP_Plugin->load_init('')
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#6 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#7 /home/ in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1032
+
+2020-03-06T12:03:45+00:00 CRITICAL syntax error, unexpected end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1027
+
+2020-03-06T12:05:39+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1026
+
+2020-03-06T12:05:41+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1026
+
+2020-03-06T12:06:42+00:00 CRITICAL syntax error, unexpected '}' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1025
+
+2020-03-06T12:06:55+00:00 CRITICAL syntax error, unexpected '}' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1025
+
+2020-03-06T13:24:36+00:00 CRITICAL syntax error, unexpected end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 438
+

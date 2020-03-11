@@ -1,0 +1,28 @@
+.progressally-facebook-share,
+.progressally-twitter-share,
+.progressally-gplus-share,
+.progressally-pinterest-share,
+.progressally-email-share {
+background-color:{{quiz-button-color}} !important;
+background-image:none !important;
+border: none !important;
+padding: 10px 15px !important;
+color: white !important;
+border-radius: 5px !important;
+box-shadow: 0 0 3px 3px #f1f1f1 !important;
+cursor:pointer !important;
+font-size:12px !important;
+line-height:normal !important;
+text-align: center !important;
+text-decoration:none !important;
+display:inline-block !important;
+}
+span.progressally-facebook-share:hover,
+span.progressally-twitter-share:hover,
+span.progressally-gplus-share:hover,
+span.progressally-pinterest-share:hover,
+span.progressally-email-share:hover {
+background-color:{{quiz-button-hover}} !important;
+background-image:none !important;
+cursor:pointer !important;
+}

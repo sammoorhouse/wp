@@ -1,0 +1,15 @@
+.progressally_progress_bar_chart{
+width:200px;
+height:20px;
+}
+.progressally_progress_bar_chart > .progressally_progress_bar_overlay{
+background-color:{{progress-bar-color}} !important;
+}
+.progressally_progress_bar_chart > .progressally_progress_bar_percentage{
+line-height:20px;
+left:{{progress-bar-text-left}} !important;
+color:#000000 !important;
+}
+.progressally_progress_bar_chart > .progressally_progress_bar_border_overlay{
+border:1px solid {{progress-bar-color}} !important;
+}

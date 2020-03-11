@@ -1,0 +1,461 @@
+/* ----------------------------------------------- main display tab and general styling ------------------------------- */
+table.progressally-setting-container {
+	margin: 40px 0 0 0;
+	background:#ffffff;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	border-color: #e4e4e4;
+	width:1000px;
+	border-spacing: 0;
+	background-image: url('../img/setting-bg.png');
+	background-repeat: repeat;
+	table-layout:fixed;
+	border-collapse: separate;
+}
+.progressally-setting-container > tbody > tr > td{
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: #e4e4e4;
+}
+.progressally-setting-left-col {
+	width:120px;
+	padding:0;
+}
+.progressally-setting-title-cell {
+	padding:20px 0 20px 20px;
+}
+.progressally-setting-title {
+	color:#00a5b3;
+	font-size:30px;
+	margin: 0px 0 20px 0;
+}
+.progressally-setting-section-help-text {
+	font-style: italic;
+	font-size:12px;
+}
+.progressally-info-icon {
+	background-image:url('../img/info-icon.png');
+	background-repeat: no-repeat;
+	background-position:0 50%;
+	width:16px;
+	height:16px;
+	vertical-align:top;
+	display:inline-block;
+}
+.progressally-setting-tab-label-col {
+	height:40px;
+	cursor: pointer;
+}
+.progressally-setting-container > tbody > tr > td.progressally-setting-tab-active {
+	border-width: 0 0 1px 0;
+}
+.progressally-setting-tab-active label{
+	font-weight:bold;
+}
+.progressally-tab-label {
+	background-repeat: no-repeat;
+	margin:0;
+	padding:8px 0 8px 36px;
+	height:40px;
+	line-height:24px;
+	background-position:8px 50%;
+	overflow:hidden;
+	position:relative;
+	white-space: nowrap;
+	border-width:0;
+	border-style: solid;
+	border-color: #e4e4e4;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	background-color:white;
+}
+td.progressally-setting-content-cell {
+	vertical-align:top;
+	border-bottom-width:0px;
+}
+.progressally-setting-content-container {
+	padding:0 20px 20px 20px;
+	font-size:14px;
+	box-sizing: border-box;
+}
+.progressally-setting-filler-row td {
+	border-width: 0 1px 0 0;
+}
+.progressally-setting-section-header {
+	color:#00a5b3;
+	font-size:18px;
+}
+.progressally-setting-section-sub-header {
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.progressally-configure-element {
+	padding:0 10px 0 10px;
+	border-style:solid;
+	border-color:#e4e4e4;
+	border-width:5px 1px 1px 1px;
+	margin:20px 0;
+}
+.progressally-setting-configure-block {
+	margin:10px 0;
+}
+.progressally-setting-configure-table {
+	width:100%;
+}
+.progressally-setting-configure-table, .progressally-setting-configure-table td {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-width: 0;
+}
+.progressally-inline-help-text {
+	background-color: #eafdfd;
+	padding: 10px;
+	border: 1px solid #e4e4e4;
+	margin: 10px;
+	display: inline-block;
+	font-size:12px;
+}
+.progressally-setting-section {
+	padding:15px 0;
+}
+/* ----------------------------------------------- END main display tab and general styling ------------------------------- */
+
+/* -------------------------- auto-complete ------------------------- */
+.progressally-tag-container,
+.progressally-page-container{
+	border: 1px solid #e4e4e4;
+	padding: 5px;
+	background-color:white;
+}
+.progressally-tag,
+.progressally-page,
+.progressally-option-input {
+	border: 1px solid #e4e4e4;
+	display:inline-block;
+	padding:5px;
+	margin:2px;
+	font-size:13px;
+}
+.progressally-tag-invalid,
+.progressally-page-invalid {
+	background-color:#ffaaaa;
+	position:relative;
+}
+.progressally-tag-name,
+.progressally-page-name {
+	margin-right:25px;
+}
+.progressally-tag-delete,
+.progressally-page-delete {
+	float:right;
+	width:15px;
+	height:15px;
+	color:#e4e4e4;
+	border:1px solid #e4e4e4;
+	line-height:15px;
+	font-size:12px;
+	text-align:center;
+	cursor:pointer;
+}
+.progressally-tag-delete:hover,
+.progressally-page-delete:hover {
+	background-color:#ff1111;
+	color:#ffffff;
+}
+.progressally-option-input {
+	min-width:170px;
+}
+ul.ui-widget-content.ui-autocomplete{
+	background-color:#fafafa;
+	background-image:none;
+}
+.progressally-option-combobox {
+position: relative;
+display: inline-block;
+}
+.progressally-option-combobox-full-width {
+position: relative;
+display:block;
+}
+.progressally-option-combobox-full-width .progressally-option-input {
+	width:100%;
+}
+ul.ui-autocomplete li.progressally-option{
+	font-weight:normal;
+}
+.progressally-option-highlight{
+	font-weight:bold;
+	text-decoration:underline;
+}
+/* normally included as part of form.css. Included duplicate here for optimize press, which skips form.css */
+.ui-autocomplete {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	z-index: 10000;
+	border: 1px solid #5b9dd9;
+	-webkit-box-shadow: 0 1px 2px rgba( 30, 140, 190, 0.8 );
+	box-shadow: 0 1px 2px rgba( 30, 140, 190, 0.8 );
+	background-color: #fff;
+}
+.ui-autocomplete li {
+	margin-bottom: 0;
+	padding: 4px 10px;
+	white-space: nowrap;
+	text-align: left;
+}
+.ui-autocomplete li.ui-state-focus {
+	background-color: #ddd;
+	cursor: pointer;
+}
+/* -------------------------- END auto-complete ------------------------- */
+/* -------------------------- tag refresh ------------------------- */
+.progressally-refresh-tag-trigger-container{
+position: absolute;
+top: 50%;
+right: 8px;
+margin-top: -8px;
+}
+.progressally-refresh-tag-trigger{
+width: 16px;
+height: 16px;
+background-image: url('../img/refresh.png');
+background-repeat: no-repeat;
+}
+.progressally-refresh-tag-trigger:hover{
+	opacity:0.5;
+}
+.progressally-tooltip-display{
+	position: absolute;
+	background-color: #e4e4e4;
+	color:#000000;
+	width: 200px;
+	left: 100%;
+	bottom: 0;
+	padding: 10px;
+	border: 1px solid #444444;
+	border-radius: 5px;
+	opacity:0;
+	z-index:999;
+}
+/* -------------------------- END tag refresh ------------------------- */
+/* -------------------------- Wait overlay ------------------------- */
+#progressally-wait-overlay{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:fixed;
+	bottom:0;
+	right:0;
+	display:none;
+	background-color:rgba(80,80,80,0.5);
+	z-index:1;
+}
+#progressally-wait-overlay .progressally-wait-content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-64px 0 0 -64px;
+}
+/* -------------------------- END Wait overlay ------------------------- */
+
+/* -------------------------- Button ------------------------- */
+.progressally-button{
+	background-color:#fcc302;
+	border: none;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	font-size:12px;
+	line-height:18px;
+	text-align: center;
+	display:inline-block;
+	text-decoration:none;
+}
+.progressally-button:hover{
+	background-color:#00a5b3;
+}
+.progressally-save-button{
+	background-color:#fcc302;
+	border: none;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	font-size:12px;
+	line-height:18px;
+	text-align: center;
+	display:inline-block;
+	text-decoration:none;
+	width:100px;
+	float:right;
+}
+.progressally-save-button:hover{
+	background-color:#00a5b3;
+}
+.progressally-delete-button{
+	background-color:#e4e4e4;
+	border: none;
+	padding: 10px 15px;
+	color:#000000;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	font-size:12px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+}
+.progressally-delete-button:hover{
+	background-color:#ff1111;
+	color:#ffffff;
+}
+.progressally-cancel-button{
+	background-color:#e4e4e4;
+	border: none;
+	padding: 10px 15px;
+	color:#000000;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	font-size:12px;
+	display:block;
+	width:80px;
+	margin:0 auto;
+	text-align:center;
+}
+.progressally-cancel-button:hover{
+	background-color:#ff1111;
+	color:#ffffff;
+}
+.progressally-edit-button{
+	background-color:#fcc302;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:12px;
+	line-height:18px;
+	text-align: center;
+	text-decoration:none;
+	width:120px;
+	padding:10px 0;
+	float:right;
+}
+.progressally-edit-button:hover{
+	background-color:#00a5b3;
+}
+/* -------------------------- END Button ------------------------- */
+
+/* -------------------------- Event setup specific ------------------------- */
+.progressally-event-container {
+	border:1px solid #e4e4e4;
+	background-color:#ffffff;
+	margin:20px 0;
+}
+.progressally-event-readonly-view {
+	padding:15px;
+}
+.progressally-event-edit-view{
+	padding:0 15px;
+}
+.progressally-event-header{
+	background-color:#f1f1f1;
+	height:40px;
+	padding:0 0 0 20px;
+	line-height:40px;
+}
+.progressally-event-header-desc{
+	color:#00a5b3;
+	font-weight:700;
+}
+.progressally-event-readonly-edit-col{
+	width:80px;
+}
+.progressally-event-readonly-desc{
+	margin:5px 0;
+}
+.progressally-event-readonly-desc ul{
+	margin: 10px 0 0 0;
+	padding: 0 0 0 20px;
+	list-style:disc;
+}
+.progressally-event-objective-list-container{
+	margin:10px 0;
+	padding:15px;
+	border:1px solid #e4e4e4;
+}
+.progressally-event-objective-list-disabled-option{
+	color:#888888;
+	position:relative;
+}
+.progressally-event-readonly-desc-trigger-col{
+	width:45%;
+	vertical-align:top;
+}
+.progressally-event-readonly-desc-action-col{
+	width:45%;
+	vertical-align:top;
+}
+.progressally-event-readonly-desc-arrow-col{
+	text-align:center;
+}
+.progressally-readonly-error{
+	color:#ff0000;
+}
+.progressally-event-readonly-arrow{
+	width:29px;
+	height:20px;
+	margin:0 auto;
+	background-image: url('../img/event-arrow.png');
+}
+/* -------------------------- Event setup specific ------------------------- */
+
+/* ----------------------------------------------- log display ------------------------------- */
+.progressally-filter-selection-table{
+	border-collapse:collapse;
+	border:none;
+}
+.progressally-filter-selection-table td, .progressally-filter-selection-table th{
+	border:none;
+}
+.progressally-duplicate-scroll-bar {
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 100%;
+	height:20px;
+}
+.progressally-duplicate-scroll-bar div {
+	height:20px;
+}
+.progressally-log-summary-table-container {
+	overflow:auto;
+	width:100%;
+}
+.progressally-log-summary-table {
+	border-style:solid solid none solid;
+	border-width:1px 1px 0 1px;
+	border-color:#e4e4e4;
+	border-collapse:collapse;
+	min-width:100%;
+}
+.progressally-log-summary-table td, .progressally-log-summary-table th{
+	border-style:none none solid none;
+	border-width:0 0 1px 0;
+	border-color:#e4e4e4;
+	vertical-align:middle;
+	text-align:center;
+	padding:5px;
+}
+.progressally-log-summary-table td.progressally-event-log-trigger-col{
+	text-align:left;
+}
+.progressally-log-summary-table td.progressally-event-log-action-col{
+	text-align:left;
+}
+/* ----------------------------------------------- end log display ------------------------------- */

@@ -1,0 +1,381 @@
+2020-03-04T06:33:02+00:00 CRITICAL syntax error, unexpected ',' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 176
+
+2020-03-04T10:23:38+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1014
+
+2020-03-04T10:23:38+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1014
+
+2020-03-04T10:23:39+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1014
+
+2020-03-04T10:23:40+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1014
+
+2020-03-04T11:02:33+00:00 CRITICAL syntax error, unexpected ',' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1039
+
+2020-03-04T11:02:34+00:00 CRITICAL syntax error, unexpected ',' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1039
+
+2020-03-04T11:02:42+00:00 CRITICAL syntax error, unexpected ',' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1039
+
+2020-03-04T11:02:53+00:00 CRITICAL syntax error, unexpected ')' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1039
+
+2020-03-04T11:39:38+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1032
+
+2020-03-04T11:39:40+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1032
+
+2020-03-04T11:39:47+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1032
+
+2020-03-04T11:39:53+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1032
+
+2020-03-04T11:41:31+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-cron.php(44): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:41:31+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-blog-header.php(13): require_once('/home/liljades/...')
+#7 /home/liljades/public_html/studyabroadu.com/index.php(17): require('/home/liljades/...')
+#8 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:41:41+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:41:54+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:42:23+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:42:24+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:42:35+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-cron.php(44): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:42:35+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:42:39+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1034
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1034
+
+2020-03-04T11:43:19+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:43:23+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-blog-header.php(13): require_once('/home/liljades/...')
+#7 /home/liljades/public_html/studyabroadu.com/index.php(17): require('/home/liljades/...')
+#8 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:43:56+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-cron.php(44): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:43:56+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:44:22+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:44:25+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:44:26+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin.php(34): require_once('/home/liljades/...')
+#7 /home/liljades/public_html/studyabroadu.com/wp-admin/post-new.php(10): require_once('/home/liljades/...')
+#8 {m in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:44:35+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:44:40+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1033
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1033
+
+2020-03-04T11:45:00+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-cron.php(44): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:45:00+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin.php(34): require_once('/home/liljades/...')
+#7 /home/liljades/public_html/studyabroadu.com/wp-admin/post-new.php(10): require_once('/home/liljades/...')
+#8 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:46:24+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-cron.php(44): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:46:24+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:46:26+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:46:35+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:46:41+00:00 CRITICAL Uncaught Error: Call to undefined function remove_meta_box() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php:63
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#4 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#5 /home/liljades/public_html/studyabroadu.com/wp-load.php(37): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-admin/admin-ajax.php(22): require_once('/home/liljades/...')
+#7 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/buddyboss-theme-child/functions.php on line 63
+
+2020-03-04T11:49:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1035 and at least 1 expected in /home/liljades/public_html/studyabroadu.com/wp-includes/post.php:2109
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php(1035): get_post_meta()
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): hide_categories('')
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/liljades/public_html/studyabroadu.com/wp-settings.php(523): do_action('init')
+#5 /home/liljades/public_html/studyabroadu.com/wp-config.php(99): require_once('/home/liljades/...')
+#6 /home/liljades/public_html/studyabroadu.com/wp-loa in /home/liljades/public_html/studyabroadu.com/wp-includes/post.php on line 2109
+
+2020-03-04T12:37:50+00:00 CRITICAL Uncaught Error: Call to undefined function bp_remove_nav_item() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php:1025
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): bp_setup_nav('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/liljades/public_html/ in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1025
+
+2020-03-04T12:51:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bp_core_remove_subnav_item(), 1 passed in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1025 and at least 2 expected in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-buddybar.php:846
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php(1025): bp_core_remove_subnav_item('blog')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#5 /home/li in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-buddybar.php on line 846
+
+2020-03-04T12:51:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bp_core_remove_subnav_item(), 1 passed in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1025 and at least 2 expected in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-buddybar.php:846
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php(1025): bp_core_remove_subnav_item('blog')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#5 /home/li in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-buddybar.php on line 846
+
+2020-03-04T12:51:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bp_core_remove_subnav_item(), 1 passed in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1025 and at least 2 expected in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-buddybar.php:846
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php(1025): bp_core_remove_subnav_item('blog')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): mb_profile_menu_tabs('')
+#2 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-dependency.php(154): do_action('bp_setup_nav')
+#5 /home/li in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-core/bp-core-buddybar.php on line 846
+
+2020-03-04T12:55:17+00:00 CRITICAL syntax error, unexpected '}' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+
+2020-03-04T12:55:19+00:00 CRITICAL syntax error, unexpected '}' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddypress-user-blog/includes/sap-functions.php on line 1029
+

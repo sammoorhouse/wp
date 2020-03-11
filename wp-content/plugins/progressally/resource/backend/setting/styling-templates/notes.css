@@ -1,0 +1,154 @@
+.progressally-note-block div, .progressally-note-block span{
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+.progressally-notes-update-label {
+margin:10px 0;
+}
+.progressally-notes-update-display-container{
+display:block;
+position:relative;
+width:100%;
+}
+.progressally-notes-update-button{
+position:absolute;
+border: none;
+cursor: pointer;
+width: 18px;
+height: 48px;
+background: url("{{note-edit-icon}}");
+text-align: center;
+right:10px;
+background-repeat:no-repeat;
+background-position:50%;
+}
+.progressally-notes-update-button:hover{
+opacity:0.5;
+}
+.progressally-notes-display{
+display:block;
+border:1px solid #e4e4e4;
+border-radius:5px;
+min-height:36px;
+padding:5px 10px;
+margin-bottom:10px;
+word-wrap:break-word;
+}
+.progressally-notes-display[progressally-notes-update-display]{
+cursor:pointer;
+}
+.progressally-notes-display[progressally-notes-update-display][progressally-placeholder-status="show"]{
+font-style:italic;
+color:#cfcfcf;
+line-height:36px;
+}
+.progressally-notes-update-input-container{
+display:block;
+position:relative;
+width:100%;
+}
+.progressally-notes-update-textarea{
+width:100%;
+vertical-align:middle;
+}
+.progressally-notes-update-input-wait{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-size:contain;
+background-repeat: no-repeat;
+background-position: 50%;
+display:none;
+filter: alpha(opacity=50);
+background-color:rgba(228, 228, 228, 0.5);
+}
+.progressally-notes-operation-container{
+margin:8px 0 0 0;
+text-align: center;
+}
+.progressally-notes-save-button,
+.progressally-notes-cancel-button,
+.progressally-notes-upload-button{
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	line-height:20px;
+	width:60px;
+	display:inline-block;
+    text-align:center;
+}
+.progressally-notes-save-button {
+	background-color:{{note-save-button-color}};
+	color: white;
+	float:right;
+}
+.progressally-notes-upload-button {
+	background-color:{{note-save-button-color}};
+	color: white;
+	width: 100px;
+}
+.progressally-notes-save-button:hover,
+.progressally-notes-upload-button:hover {
+	background-color:{{note-save-button-hover}};
+}
+.progressally-notes-cancel-button {
+	background-color:#e4e4e4;
+	color: #000000;
+	float:left;
+}
+.progressally-notes-cancel-button:hover {
+	background-color:#ff1111;
+}
+.progressally-notes-display-user{
+width:90%;
+}
+.progressally-notes-display-admin{
+width:90%;
+margin-left:5%;
+background-color:#f8f8f8;
+}
+.progressally-note-upload-container {
+display: none;
+}
+.progressally-notes-attachment-add{
+	float: right;
+	font-size: 14px;
+	font-style: italic;
+	cursor:pointer;
+}
+.progressally-notes-attachment-add:hover{
+	opacity:0.8;
+}
+.progressally-notes-attachment-clear{
+	clear:both;
+}
+.progress-note-attachment-file-input{
+	display:block;
+}
+.progressally-notes-display-attachment-link{
+background-image: url("{{note-attachment-icon}}");
+background-repeat:no-repeat;
+background-position:0 50%;
+background-size:20px 20px;
+padding-left:30px;
+}
+.progressally-notes-attachment-delete{
+display:inline-block;
+width: 16px;
+height: 16px;
+color: #e4e4e4;
+border: 1px solid #e4e4e4;
+line-height: 16px;
+font-size: 14px;
+text-align: center;
+cursor: pointer;
+}
+.progressally-notes-attachment-delete:hover{
+background-color: #ff1111;
+color: #ffffff;
+}

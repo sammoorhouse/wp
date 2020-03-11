@@ -1,0 +1,8 @@
+[22-May-2019 09:48:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/twentyseventeen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 15:17:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/liljades/public_html/studyabroadu.com/wp-content/themes/twentyseventeen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/liljades/public_html/studyabroadu.com/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26

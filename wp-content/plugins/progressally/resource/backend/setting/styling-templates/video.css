@@ -1,0 +1,49 @@
+/* overwrite styling for some Thesis theme */
+.progressally-video-container .fluid-vids{
+width:100% !important;
+height:100% !important;
+}
+/* END overwrite styling for some Thesis theme */
+
+.progressally-video-container-fluid-dimension{
+width:100%;
+height:0;
+padding-bottom:56.25%;
+position:relative;
+}
+.progressally-video-container-fluid-dimension iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+/* Elementor video iframe styling */
+.elementor-widget-container .progressally-video-container-fluid-dimension .fluid-width-video-wrapper{
+padding-top:0 !important;
+padding-bottom:56.25%;
+}
+.elementor-widget-container .progressally-video-container-fluid-dimension iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+/* BeaverBuilder video iframe styling */
+@media (max-width: 960px) {
+.progressally-video-container{
+width:100%;
+height:0;
+padding-bottom:56.25%;
+position:relative;
+}
+.progressally-video-container iframe{
+width: 100%;
+height: 100%;
+position:absolute;
+top:0;
+left:0;
+}
+}

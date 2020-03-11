@@ -1,0 +1,9 @@
+.progressally-elementor-widget-icon{
+	width:28px;
+	height:28px;
+	background-image: url('../img/progressally-icon-elementor.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0 auto;
+}

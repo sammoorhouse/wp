@@ -1,0 +1,134 @@
+[05-Jun-2019 02:53:00 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query DELETE synch.*
+				  FROM
+					 wper_blc_synch AS synch
+					 LEFT JOIN wper_posts AS posts
+					 ON (synch.container_id = posts.ID and synch.container_type = posts.post_type)
+				  WHERE
+					 posts.post_status NOT IN ('publish') made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[05-Jun-2019 02:53:00 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query UPDATE
+					wper_blc_synch AS synch
+					JOIN wper_posts AS posts ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)
+				  SET 
+					synched = 0
+				  WHERE
+					synch.last_synch < posts.post_modified made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[05-Jun-2019 02:53:00 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query INSERT INTO wper_blc_synch(container_id, container_type, synched)
+				  SELECT posts.id, posts.post_type, 0
+				  FROM 
+				    wper_posts AS posts LEFT JOIN wper_blc_synch AS synch
+					ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)  
+				  WHERE
+				  	posts.post_status IN ('publish')
+	 				AND posts.post_type IN ('post', 'page')
+					AND synch.container_id IS NULL made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[02-Jul-2019 14:13:02 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query DELETE synch.*
+				  FROM
+					 wper_blc_synch AS synch
+					 LEFT JOIN wper_posts AS posts
+					 ON (synch.container_id = posts.ID and synch.container_type = posts.post_type)
+				  WHERE
+					 posts.post_status NOT IN ('publish') made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[02-Jul-2019 14:13:02 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query UPDATE
+					wper_blc_synch AS synch
+					JOIN wper_posts AS posts ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)
+				  SET 
+					synched = 0
+				  WHERE
+					synch.last_synch < posts.post_modified made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[02-Jul-2019 14:13:02 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query INSERT INTO wper_blc_synch(container_id, container_type, synched)
+				  SELECT posts.id, posts.post_type, 0
+				  FROM 
+				    wper_posts AS posts LEFT JOIN wper_blc_synch AS synch
+					ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)  
+				  WHERE
+				  	posts.post_status IN ('publish')
+	 				AND posts.post_type IN ('post', 'page')
+					AND synch.container_id IS NULL made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[02-Jul-2019 14:15:23 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query DELETE synch.*
+				  FROM
+					 wper_blc_synch AS synch
+					 LEFT JOIN wper_posts AS posts
+					 ON (synch.container_id = posts.ID and synch.container_type = posts.post_type)
+				  WHERE
+					 posts.post_status NOT IN ('publish') made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[02-Jul-2019 14:15:23 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query UPDATE
+					wper_blc_synch AS synch
+					JOIN wper_posts AS posts ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)
+				  SET 
+					synched = 0
+				  WHERE
+					synch.last_synch < posts.post_modified made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[02-Jul-2019 14:15:23 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query INSERT INTO wper_blc_synch(container_id, container_type, synched)
+				  SELECT posts.id, posts.post_type, 0
+				  FROM 
+				    wper_posts AS posts LEFT JOIN wper_blc_synch AS synch
+					ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)  
+				  WHERE
+				  	posts.post_status IN ('publish')
+	 				AND posts.post_type IN ('post', 'page')
+					AND synch.container_id IS NULL made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[10-Jul-2019 22:56:33 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query DELETE synch.*
+				  FROM
+					 wper_blc_synch AS synch
+					 LEFT JOIN wper_posts AS posts
+					 ON (synch.container_id = posts.ID and synch.container_type = posts.post_type)
+				  WHERE
+					 posts.post_status NOT IN ('publish') made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[10-Jul-2019 22:56:33 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query UPDATE
+					wper_blc_synch AS synch
+					JOIN wper_posts AS posts ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)
+				  SET 
+					synched = 0
+				  WHERE
+					synch.last_synch < posts.post_modified made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[10-Jul-2019 22:56:33 UTC] WordPress database error Illegal mix of collations (utf8mb4_unicode_520_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '=' for query INSERT INTO wper_blc_synch(container_id, container_type, synched)
+				  SELECT posts.id, posts.post_type, 0
+				  FROM 
+				    wper_posts AS posts LEFT JOIN wper_blc_synch AS synch
+					ON (synch.container_id = posts.ID and synch.container_type=posts.post_type)  
+				  WHERE
+				  	posts.post_status IN ('publish')
+	 				AND posts.post_type IN ('post', 'page')
+					AND synch.container_id IS NULL made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_broken-link-checker/broken-link-checker.php'), WP_Hook->do_action, WP_Hook->apply_filters, blc_activation_hook, require('/plugins/broken-link-checker/includes/activation.php'), blcModuleManager->plugin_activated, blcModule->plugin_activated, blcContainerManager->activated, blcAnyPostContainerManager->resynch, blcPostTypeOverlord->resynch
+[20-Jul-2019 13:51:58 UTC] WordPress database error Duplicate column name 'last_locked_at' for query ALTER TABLE wper_tm_tasks ADD last_locked_at BIGINT DEFAULT 0 AFTER time_created made by require_once('wp-admin/network/admin.php'), require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Optimize->plugins_loaded, WP_Optimize->get_task_manager, Updraft_Tasks_Activation::check_updates, Updraft_Tasks_Activation::add_lock_column
+[29-Nov-2019 20:08:14 UTC] PHP Warning:  Illegal string offset 'theplus_elementor_addon/theplus_elementor_addon.php' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:14 UTC] PHP Warning:  Illegal string offset 'Name' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:14 UTC] PHP Warning:  Illegal string offset 'theplus_elementor_addon/theplus_elementor_addon.php' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:14 UTC] PHP Fatal error:  Uncaught Error: Cannot use string offset as an array in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php:172
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(290): TheplusAddons\Theplus_Widgets_Include->tp_white_label_update('bp_core_unset_b...')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('bp_core_unset_b...', Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-loader.php(149): apply_filters('all_plugins', 'bp_core_unset_b...', -1)
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(290): bp_core_set_bbpress_buddypress_active(Array, 'active_sitewide...')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/option.php(1331): apply_filters('site_option_act...' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:25 UTC] PHP Warning:  Illegal string offset 'theplus_elementor_addon/theplus_elementor_addon.php' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:25 UTC] PHP Warning:  Illegal string offset 'Name' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:25 UTC] PHP Warning:  Illegal string offset 'theplus_elementor_addon/theplus_elementor_addon.php' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[29-Nov-2019 20:08:25 UTC] PHP Fatal error:  Uncaught Error: Cannot use string offset as an array in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php:172
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(290): TheplusAddons\Theplus_Widgets_Include->tp_white_label_update('bp_core_unset_b...')
+#1 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('bp_core_unset_b...', Array)
+#2 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/buddyboss-platform/bp-loader.php(149): apply_filters('all_plugins', 'bp_core_unset_b...', -1)
+#3 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(290): bp_core_set_bbpress_buddypress_active(Array, 'active_sitewide...')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/option.php(1331): apply_filters('site_option_act...' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php on line 172
+[09-Dec-2019 10:04:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/modules/theplus-include-widgets.php:172) in /home/liljades/public_html/studyabroadu.com/wp-admin/admin-header.php on line 9
+[09-Dec-2019 10:22:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function TheplusAddons\theplus_widgets_include() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/widgets_loader.php:289
+Stack trace:
+#0 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/widgets_loader.php(57): TheplusAddons\Theplus_Element_Load->__construct()
+#1 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/widgets_loader.php(296): TheplusAddons\Theplus_Element_Load::instance()
+#2 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/widgets_loader.php(299): TheplusAddons\theplus_addon_load()
+#3 /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/theplus_elementor_addon.php(42): require('/home/liljades/...')
+#4 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php(288): theplus_pluginsLoaded('')
+#5 /home/liljades/public_html/studyabroadu.com/wp-includes/class-wp-hook.php( in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/theplus_elementor_addon/widgets_loader.php on line 289
+[02-Jan-2020 18:07:10 UTC] Astra: Running update() function!
+[02-Jan-2020 18:07:10 UTC] Astra: Batch Process Started!
+[02-Jan-2020 18:07:10 UTC] Astra: Queuing 2.2.0 - astra_page_builder_button_color_compatibility
+[02-Jan-2020 18:07:10 UTC] Astra: Queuing 2.2.0 - astra_vertical_horizontal_padding_migration
+[16-Jan-2020 19:09:26 UTC] PHP Warning:  Illegal string offset 'sizes' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/sg-cachepress/core/Images_Optimizer/Images_Optimizer_Webp.php on line 425
+[16-Jan-2020 19:09:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/sg-cachepress/core/Images_Optimizer/Images_Optimizer_Webp.php on line 425
+[16-Jan-2020 19:09:26 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/sg-cachepress/core/Images_Optimizer/Images_Optimizer_Webp.php on line 429
+[16-Jan-2020 19:09:26 UTC] PHP Warning:  Illegal string offset 'sizes' in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/sg-cachepress/core/Images_Optimizer/Images_Optimizer_Webp.php on line 425
+[16-Jan-2020 19:09:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/sg-cachepress/core/Images_Optimizer/Images_Optimizer_Webp.php on line 425
+[16-Jan-2020 19:09:26 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/liljades/public_html/studyabroadu.com/wp-content/plugins/sg-cachepress/core/Images_Optimizer/Images_Optimizer_Webp.php on line 429
